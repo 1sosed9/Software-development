@@ -163,6 +163,7 @@ a {
   height: 100%;
 }
 
+/* Header style start */
 .header {
   width: 100%;
   min-height: 1084px;
@@ -348,3 +349,51 @@ a {
   line-height: 32px;
   color: #cfd0d8;
 }
+/* Header style end */
+
+/* Services style start */
+.services {
+  margin-bottom: 180px;
+}
+.services__title {
+  margin-bottom: 60px;
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.services__grid-item {
+  position: relative;
+  height: 330px;
+  max-width: 330px;
+  background: #f0f0f1;
+  transition: 0.3s all;
+}
+.services__grid-item:hover {
+  transform: scale(1.05);
+}
+
+.services__item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.services__item-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #5e6695;
+}
+/* Services style end */
+
+/* Projects style start */
+
+/* Projects style end */
