@@ -412,7 +412,7 @@ a {
 
 /* Projects style start */
 .projects {
-  margin-bottom: 1014px;
+  margin-bottom: 970px;
 }
 
 .projects__top {
@@ -504,6 +504,7 @@ a {
 
 /* Leadership style start */
 .leadership {
+  margin-bottom: 180px;
 }
 
 .leadership__link {
@@ -561,30 +562,237 @@ a {
 }
 
 .leadership__btns {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .white-btn {
-    width: 200px;
-    background: #ffffff;
-    border: 1px solid  #1e74ec;
+  width: 200px;
+  background: #ffffff;
+  border: 1px solid #1e74ec;
 }
 
 .white-btn-name {
-    color: #1e74ec;
-    font-weight: 600;
+  color: #1e74ec;
+  font-weight: 600;
 }
 
 .blue-btn-name {
-
-}
-
-.link-absolute {
-
 }
 
 .blue-btn {
-    width: 200px;
+  width: 200px;
 }
 /* Leadership style end */
+
+/* Contacts style start */
+.contacts {
+  margin-bottom: 180px;
+}
+
+.contacts__top {
+  padding-top: 110px;
+  background: url(../img/contacts-bg.jpg) no-repeat center;
+  width: 100%;
+  min-height: 560px;
+}
+
+.contacts__title {
+  max-width: 675px;
+}
+
+.contacts__title > .all-title-small {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #cfd0d8;
+}
+
+.contacts__title > .all-title-big {
+  color: #f0f0f1;
+}
+
+.title-last-letter {
+  color: #1e74ec;
+}
+
+.contacts__bottom-wrap {
+  position: relative;
+}
+
+.contacts__bottom-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 110px;
+  margin-top: -227px;
+  background: #f0f0f1;
+}
+
+.talk__us {
+  max-width: 578px;
+  padding: 50px 40px;
+  background: linear-gradient(159.18deg, #5f249f 13.77%, #320a5e 83.86%);
+}
+
+.talk__us-intro {
+  padding-bottom: 40px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #c1c2c7;
+}
+
+.talk__us-title {
+  margin-bottom: 14px;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  color: #e0e1e3;
+}
+
+.talk__us-sub-title {
+  font-weight: 300;
+  line-height: 22px;
+  color: #e0e1e3;
+}
+
+.talk__us-teams {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 26px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #c1c2c7;
+}
+
+.team {
+  width: 50%;
+}
+
+.team__title {
+  margin-bottom: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #f0f0f1;
+}
+
+.team__mail {
+  font-weight: 300;
+  line-height: 20px;
+  color: #f0f0f1;
+}
+
+.team__phone {
+  font-weight: 300;
+  line-height: 20px;
+  color: #f0f0f1;
+}
+
+.talk__us-social {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social__item {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-right: 40px;
+}
+
+.social__item:last-child {
+  margin-right: 0px;
+}
+
+.social__item-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.contacts__form {
+  max-width: 578px;
+}
+
+.form__title {
+  margin-bottom: 26px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #03115f;
+}
+
+.form__sub-title {
+  margin-bottom: 16px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #040a2d;
+}
+
+.form__wrap {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.input__fist-line {
+}
+
+.form-field {
+  width: 100%;
+  margin-bottom: 14px;
+  min-height: 48px;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.input__second-line {
+}
+
+.input__third-line {
+}
+
+.form-comment {
+  width: 100%;
+  min-height: 96px;
+  padding: 14px 16px;
+  margin-bottom: 34px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.form-button-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-button {
+  margin-right: 10px;
+}
+
+.button-desc-wrap {
+  max-width: 248px;
+}
+.form-button-desc {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 20px;
+  color: #84858f;
+}
+
+.form-button-desc-link {
+  font-weight: 325;
+  font-size: 11px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #a960ab;
+}
+/* Contacts style end */
+
+
