@@ -1496,10 +1496,15 @@ a {
     justify-content: center;
   }
 
+  .nav__item {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
   .logo {
     justify-content: center;
     margin-right: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .title {
@@ -1627,6 +1632,25 @@ a {
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 40px;
+    padding: 30px 10px;
+  }
+
+  .talk__us-teams {
+    flex-direction: column;
+  }
+
+  .team {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .team__title {
+    line-height: 14px;
+    margin-bottom: 4px;
+  }
+
+  .social__item {
+    margin-bottom: 20px;
   }
 
   .contacts__form {
@@ -1668,6 +1692,45 @@ a {
   .form-button-wrap {
     justify-content: center;
     flex-direction: column;
+  }
+
+  .footer__flex {
+    padding-top: 60px;
+  }
+
+  .footer__contacts {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .footer__teams {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer__team {
+    margin: 0 auto 30px;
+    max-width: 100%;
+  }
+
+  .footer__all-links-wrap {
+    width: 100%;
+  }
+
+  .footer__flex-bottom {
+    padding-top: 60px;
+    flex-direction: column;
+  }
+
+  .footer__bottom-left {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer__bottom-right-wrap {
+    width: 100%;
+    text-align: center;
   }
 }
 
