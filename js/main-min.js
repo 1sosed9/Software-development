@@ -1,0 +1,1 @@
+!function(){let e=document.querySelectorAll('a[href*="#"]');for(let t of e)t.addEventListener("click",function(e){e.preventDefault();let l=t.getAttribute("href"),o=document.getElementById(l.split("").slice(1).join(""));window.scrollTo({top:o.offsetTop,left:0,behavior:"smooth"})})}();
